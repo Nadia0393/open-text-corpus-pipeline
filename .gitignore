@@ -1,0 +1,17 @@
+# Environments
+   .venv/
+   __pycache__/
+   *.pyc
+
+   # Data and Spark output (never commit these)
+   data/
+   spark-warehouse/
+   metastore_db/
+   derby.log
+   *.parquet
+
+   # Tooling
+   .ruff_cache/
+   .pytest_cache/
+   .DS_Store
+   EOF
