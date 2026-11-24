@@ -6,3 +6,4 @@ These are starting values, not measured cutoffs. I'll check each one against a s
 
 - **Length, 200 to 100,000 characters.** Documents under 200 characters are usually stubs or redirects with little usable text. Documents over 100,000 are rare in encyclopedia articles and often lists or tables that behave differently from prose.
 - **Non-alphanumeric ratio, at most 0.3.** Prose is mostly letters, digits, and spaces. Menus, code fragments, and garbled text have a high share of symbols. The 0.3 cutoff is a guess that needs a hand review of borderline documents.
+- **Repeated trigram fraction, at most 0.2.** A starting guess. Short texts under three words count as having no repeats, so the length filter handles them.
